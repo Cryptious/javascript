@@ -1,7 +1,7 @@
 function panggilShift() {
+
+
   var kota = ['jakarta','bandung','malang','surabaya','makasar'];
-
-
   console.log(kota);
   console.log("==================")
 
