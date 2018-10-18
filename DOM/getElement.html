@@ -1,0 +1,24 @@
+<!-- Menyeleksi Element DOM dengan .getElementById() -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="text"  id="namadepan" value="Martino"><br>
+    <input type="text" id="namabelakang" value="Wagey"><br>
+    <input type="text" class="middle" value="Crypt"><br>
+    <input type="text" class="middle" value="Glorious"><br>
+    <button type="button" onclick="jalanScript()">Jalan Yuk</button>
+
+    <script type="text/javascript">
+      function jalanScript() {
+        console.log(document.getElementById('namadepan'));
+        console.log(document.getElementById('namabelakang'));
+        console.log(document.getElementsByClassName('middle'));
+      }
+    </script>
+  </body>
+</html>
