@@ -1,0 +1,21 @@
+<!-- Menyeleksi Element DOM dengan .getElementById() -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="text" value="Martino"><br>
+    <input type="text" value="Wagey"><br>
+    <input type="text" value="ngoding"><br>
+    <button type="button" onclick="jalanScript()">Jalan Yuk</button>
+
+    <script type="text/javascript">
+      function jalanScript() {
+        console.log(document.getElementsByTagName('input'));
+      }
+    </script>
+  </body>
+</html>

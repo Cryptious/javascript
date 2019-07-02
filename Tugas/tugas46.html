@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tugas 46</title>
+  </head>
+  <body>
+    <p>Klik untuk merubah warna</p>
+    <button onclick="myFunction()">Ubah Warna</button>
+
+    <script type="text/javascript">
+      function myFunction(){
+        var warna = prompt("Masukan warna yang anda inginkan", "Warna");
+        if(warna != null){
+          document.body.style.backgroundColor = warna;
+        }
+      }
+    </script>
+  </body>
+</html>
